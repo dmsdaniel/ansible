@@ -9,3 +9,5 @@
    
   - name: Install tmux
     apt: name=tmux
+
+  - include: tasks/gnome.yml
