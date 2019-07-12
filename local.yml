@@ -8,6 +8,7 @@
     apt: name=git
 
   - include: tasks/gnome.yml
-  - include: tasks/oracle_java_8.yml
+
+  -  script: tasks/java.sh
 
   -  script: tasks/netbeans.sh
