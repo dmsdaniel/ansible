@@ -4,10 +4,7 @@
   - name: Install htop
     apt: name=htop
 
-  - name: Install mc
-    apt: name=mc
-   
-  - name: Install tmux
-    apt: name=tmux
+  - name: Install git
+    apt: name=git
 
   - include: tasks/gnome.yml
